@@ -16,8 +16,112 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section>
+						<h1>Angular</h1>
+						<p>The web development framework for building the future</p>
+					</section>
+					
+					<section>
+						<ul>
+							<li>Works at any scale</li>
+							<li>Loved by millions</li>
+							<li>Build for everyone</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>The architecture</h2>
+					</section>
+					<section>
+						<h3>Components</h3>
+						<ul>
+							<li>Components define <i>views</i>, which are sets of screen elements that Angular can choose among and modify according to your program logic and data</li>
+							<li>Components use <i>services</i>, which provide specific functionality not directly related to views. Service providers can be <i>injected</i> into components as <i>dependencies</i>, making your code modular, reusable, and efficient.</li>
+						</ul>
+					</section>
+					<section>
+						<p>Modules, components and services are classes that use <i>decorators</i>. These decorators mark their type and provide metadata that tells Angular how to use them.</p>
+						<p>An application's components typically define many views, arranged hierarchically. Angular provides the Router service to help you define navigation paths among views. The router provides sophisticated in-browser navigational capabilities.</p>
+					</section>
+					
+				</section>
+				<section>
+					<section>
+						<h3>Modules</h3>
+					</section>
+					<section>
+						Angular <i>NgModules</i> differ from and complement JavaScript (ES2015) modules. An NgModule declares a compilation context for a set of components that is dedicated to an application domain, a workflow, or a closely related set of capabilities. An NgModule can associate its components with related code, such as services, to form functional units.
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Components</h3>
+					</section>
+					<section>
+						Every Angular application has at least one component, the <i>root component</i> that connects a component hierarchy with the page document object model (DOM).
+					</section>
+					<section>
+						***Decorators are functions that modify JavaScript classes. Angular defines a number of decorators that attach specific kinds of metadata to classes, so that the system knows what those classes mean and how they should work.
+						<br>
+						<a href="https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.x5c2ndtx0">Learn more about decorators on the web.</a>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Templates, directives, and data binding</h3>
+					</section>
+					<section>
+						<h4>There are two types of data binding:</h4>
+						<ul>
+							<li>Event binding</li>
+							<li>Property binding</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Services and dependency injection</h3>
+					</section>
+					<section>For data or logic that isn't associated with a specific view, and that you want to share across components, you create a <i>service</i> class.</section>
+				</section>
+				<section>
+					<section>
+						<h3>Routing</h3>
+					</section>
+					<section>
+						<p>The Angular Router NgModule provides a service that lets you define a navigation path among the different application states and view hierarchies in your application. It is modeled on the familiar browser navigation conventions:</p>
+						<ul>
+							<li>Enter a URL in the address bar and the browser navigates to a corresponding page</li>
+							<li>Click links on the page and the browser navigates to a new page</li>
+							<li>Click the browser's back and forward buttons and the browser navigates backward and forward through the history of pages you've seen</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Conclusion</h3>
+					</section>
+					<section>
+						<img src="./../reveal.js/image/overview2.png" alt="diagram">
+					</section>
+				</section>
+				<section>
+					<h3>Each of these subjects is introduced in more detail in the following pages.</h3>
+					<ul>
+						<li><a href="https://angular.io/guide/architecture-modules">Introduction to Modules</a></li>
+						<li><a href="https://angular.io/guide/architecture-components">Introduction to Components</a></li>
+						<ul>
+							<li><a href="https://angular.io/guide/architecture-components#templates-and-views">Templates and views</a></li>
+							<li><a href="https://angular.io/guide/architecture-components#component-metadata">Component metadata</a></li>
+							<li><a href="https://angular.io/guide/architecture-components#data-binding">Data binding</a></li>
+							<li><a href="https://angular.io/guide/architecture-components#directives">Directives</a></li>
+							<li><a href="https://angular.io/guide/architecture-components#pipes">Pipes</a></li>
+						</ul>
+						<li><a href="https://angular.io/guide/architecture-services">Introduction to services and dependency injection</a></li>
+					</ul>
+				</section>
 			</div>
 		</div>
 
